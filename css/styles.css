@@ -3,20 +3,26 @@
 /*  белый #FFFFFF */
 /*  акцент #2196F3 */
 :root{
-    --primary_text-color: color: #212121;
-    --title-text-color: color: #212121;
+    --primary-text-color: #212121;
+    --title-text-color: #212121;
     --accent-color: #2196F3;
+    --title-color: #FFFFFF;
+    --text-color: #757575;
 }
 .body{
-    font-family: Roboto, Raleway;
+    font-family: Roboto;
     background-color: #FFFFFF;
     color: var(--primary_text-color);
 }
 .site-nav .link{
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 .site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
     color: var(--accent-color);
 }
 
@@ -38,5 +44,8 @@
 }
 
 .button{
-    
+    color: var(--title-color);
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
 }
