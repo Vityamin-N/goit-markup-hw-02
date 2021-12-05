@@ -2,3 +2,41 @@
 /*  цвет вторичного текста #757575 */
 /*  белый #FFFFFF */
 /*  акцент #2196F3 */
+:root{
+    --primary_text-color: color: #212121;
+    --title-text-color: color: #212121;
+    --accent-color: #2196F3;
+}
+.body{
+    font-family: Roboto, Raleway;
+    background-color: #FFFFFF;
+    color: var(--primary_text-color);
+}
+.site-nav .link{
+    color: #212121;
+}
+
+.site-nav .link:hover, .site-nav .link:focus{
+    color: var(--accent-color);
+}
+
+
+.hero-title{
+    color: #FFFFFF;
+}
+
+.section-title{
+    color: var(--primary_text-color);
+}
+
+.feature-list .title{
+    color: var(--primary_text-color);
+}
+
+.team-list .title{
+    color: var(--title-text-color);
+}
+
+.button{
+    
+}
