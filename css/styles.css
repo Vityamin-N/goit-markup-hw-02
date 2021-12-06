@@ -104,18 +104,20 @@ body{
     text-align: center;
 }
 
-.footer-nav .link{
-    color: var(--text-color);
+.footer-nav{
     font-style: normal;
     font-size: 14px;
     line-height: 24px;
+}
+
+.footer-nav .link{
+    color: var(--text-color);
     text-decoration: none;
 }
 
 .footer-nav .address{
     color: var(--title-color);
     background-color: #2F303A;
-    font-style: normal;
 }
 
 .projects-list .name{
