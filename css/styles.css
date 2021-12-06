@@ -45,6 +45,7 @@ body{
 
 .auth-nav .link{
     color: var(--text-color);
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14px;
@@ -58,6 +59,7 @@ body{
 
 .hero-title{
     color: var(--title-color);
+    background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -102,10 +104,32 @@ body{
     text-align: center;
 }
 
-.address{
-    color: var(--title-color);
+.footer-nav .link{
+    color: var(--text-color);
+    font-style: normal;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer-nav .address{
+    color: var(--title-color);
+    background-color: #2F303A;
+    font-style: normal;
+}
+
+.projects-list .name{
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-list .project{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.87;
 }
 
 .button{
@@ -116,4 +140,20 @@ body{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
+    cursor: pointer;
+}
+
+.list .button{
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    border: 1px solid #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.list .button:hover, .list .button:focus{
+    color: var(--title-color);
+    background-color: var(--accent-color);
 }
